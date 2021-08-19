@@ -1,0 +1,191 @@
+*{
+
+    margin : 0;
+    padding : 0;
+    font-family : sans-serif;
+
+}
+
+.container{
+
+    height: 100vh;
+    width: 100%;
+    background-image: url(music_images/image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    float: left;
+
+}
+
+.navbar{
+    
+    
+    width: 88%;
+    margin: auto;
+    margin-top: 0.01px;
+    padding-top: 0.01px;
+    padding-right: 0.01px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo{
+
+    width: 200px;
+    cursor: pointer;
+
+}
+
+.navbar ul{
+    
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    background-color: rgb(0, 0, 0);
+
+}
+.navbar li{
+
+    float: left;
+    border-right: 1px solid #156ee2;
+    padding-inline-end:20px;
+   
+}
+
+.navbar ul li a{
+
+    display: block;
+    padding: 0 15px;
+    text-decoration: none;
+    color:gray;
+    font-size: 15px;
+    margin: auto;
+    align-items: center;
+}
+
+a:hover{
+
+    background-color:blue;
+}
+
+.active a{
+
+    background-color: blue;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col{
+
+    margin-left: 6%;
+
+}
+.left-col h1{
+
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+
+}
+
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+#icon{
+
+    width: 50px;
+    cursor: pointer;
+
+}
+.right-col p{
+    font-size: 18px;
+    color:black;
+    font-weight: 400;
+    margin-right: 15px;
+} 
+
+.about{
+
+    font-size: 20px;
+    background-image:none;
+    background-color:blanchedalmond;
+    text-align: center;
+    color:darkslateblue;
+}
+
+.about h2{
+
+    font-size: 40px;
+    color:black;
+    text-align: center;
+}
+
+.specifications{
+
+    font-size: 20px;
+    background-image:none;
+    background-color:blanchedalmond;
+    text-align : center;
+    color:darkslateblue;
+}
+
+.specifications h2{
+
+    font-size: 40px;
+    text-align: center;
+    color:black;
+}
+
+
+.functionality{
+
+    font-size: 20px;
+    background-image:none;
+    background-color:blanchedalmond;
+    text-align: center;
+    color: darkslateblue;
+}
+.functionality h2{
+
+    font-size: 40px;
+    text-align: center;
+    color:black;
+}
+
+.connect{
+
+    font-size: 20px;
+    background-image:none;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.footer_data{
+
+    font-size-adjust: 40px;
+    background-color: black;
+    text-align: center;
+    color:white;
+}
+.footer_data h2{
+
+    font-size-adjust: 40px;
+    background-color: black;
+    text-align: center;
+}
